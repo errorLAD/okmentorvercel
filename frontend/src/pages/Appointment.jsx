@@ -88,7 +88,7 @@ const Appointment = () => {
     const bookAppointment = async () => {
 
         if (!token) {
-            toast.warning('Login to book appointment')
+            toast.warning('Login to book mentorship')
             return navigate('/login')
         }
 
